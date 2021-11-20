@@ -82,6 +82,16 @@ h3{
     top: 0px;
 }
 
+a.skip:link{
+    color:navy; 
+    text-decoration: underline;
+}
+
+a.skip:visited{
+    color:navy; 
+    text-decoration: underline; 
+}
+
 h1.title{
     text-align: center;
     font-size: 3.5em;
@@ -117,7 +127,6 @@ li:hover{
 footer{
     padding: 20px;
     background-color: azure;
-    margin-top: 50px;
     text-align: center;
     border-top: solid navy;
     
@@ -198,11 +207,9 @@ h4{
 }
 
 #mms_image1, #mms_image2, #mms_image3, #mms_image4, #mms_image5, #mms_image6, #mms_image7, #mms_image8, #mms_image9{
-    /* display: flex;
-    flex-direction: row;
-    align-items: center; */
-    height: 400px;
+    display: flex;
     width: 400px;
+    height: 400px;
     border: solid navy;
     padding: 10px;
     margin: 20px;  
@@ -212,9 +219,6 @@ h4{
     opacity: 0.5;
 }
 
-a:link {
-    color: black;
-}
 .images_description p{
     text-align: center;
 }
@@ -299,7 +303,6 @@ footer p a:visited{
     .about_content p{
         display: flex;
         align-items: center;
-        padding: 20px;
 
     }
 
